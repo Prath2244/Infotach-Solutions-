@@ -10,3 +10,9 @@ Business Objectives and Key Performance Indicators:
 
 The strategic vision is to build a stateless backend architecture capable of handling thousands of real-time events without crashing. Success will be measured by the application's ability to broadcast messages to connected clients instantly without relying on continuous HTTP polling. The frontend must deliver a seamless, app-like experience with zero full-page reloads. 
 
+Minimum Viable Product Specifications 
+
+The foundational feature is the REST API and split architecture. The backend must manage user sessions using JWTs, while the React 19 frontend consumes these APIs. 
+The core operational module is the WebSocket Server. The intern must configure Socket.IO alongside the Express server. 
+To ensure the chat scales, Redis must be implemented to manage the shared state and pub/sub messaging across potentially multiple server instances.
+
