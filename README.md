@@ -1,6 +1,12 @@
 # Infotach-Solutions-
 This repository contains the progress of the projects I do during my internship in Infotach Solutions
 
-Project 1: Real-Time B2B SaaS Collaboration Workspace 
-(Slack/Notion Clone) 
+Project 1: Real-Time B2B SaaS Collaboration Workspace (Slack/Notion Clone) 
 Executive Problem Statement:
+
+Modern remote teams require centralized workspaces that combine real-time communication with document collaboration. Legacy HTTP-based polling applications fail to provide the instant synchronization teams expect, leading to severe API latency and poor user experiences. The objective of this project is to architect a highly scalable, real-time collaboration platform. The intern will build a system where users can create "Workspaces," chat in real-time channels, and co-edit simple documents. The engineering focus is strictly on horizontal scalability, utilizing WebSockets and Redis to handle concurrent connections efficiently. 
+
+Business Objectives and Key Performance Indicators:
+
+The strategic vision is to build a stateless backend architecture capable of handling thousands of real-time events without crashing. Success will be measured by the application's ability to broadcast messages to connected clients instantly without relying on continuous HTTP polling. The frontend must deliver a seamless, app-like experience with zero full-page reloads. 
+
